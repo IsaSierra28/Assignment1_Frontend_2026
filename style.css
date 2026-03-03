@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: "Palatino", serif;
   color: #2B1F0E;
   background: #FDF6EC;
   line-height: 1.6;
@@ -42,7 +42,7 @@ body {
 /* .nav-logo — the cafe name in the navbar */
 .nav-logo {
   font-size: 22px;
-  color: #E8A94E;
+  color: #F1C0E8;
   text-decoration: none;
 }
 
@@ -62,7 +62,8 @@ body {
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
 }
 
 
@@ -70,7 +71,7 @@ body {
    Only ONE hero section, so we use #id. */
 
 #hero {
-  background: #6B4226;
+  background: #4A3F35;
   color: white;
   text-align: center;
   padding: 100px 40px;
@@ -106,7 +107,7 @@ body {
 
 /* .btn-gold — gold background modifier */
 .btn-gold {
-  background: #E8A94E;
+  background: #F1C0E8;
   color: #2B1F0E;
 }
 
@@ -127,7 +128,7 @@ body {
 /* .section-title — reused on every section heading */
 .section-title {
   font-size: 32px;
-  color: #6B4226;
+  color: #6A4C93;
   margin-bottom: 20px;
 }
 
@@ -140,7 +141,7 @@ body {
 
 /* Override the title color when inside a dark section */
 .section-dark .section-title {
-  color: #E8A94E;
+  color: #F1C0E8;
 }
 
 
@@ -162,6 +163,7 @@ body {
 
 .card:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
 }
 
 /* .card-img — shared image style */
@@ -170,6 +172,7 @@ body {
   height: 180px;
   object-fit: cover;
   display: block;
+  border-radius: 8px 8px 0 0;
 }
 
 /* .card-body — padding inside each card */
@@ -194,7 +197,7 @@ body {
 .price {
   font-weight: bold;
   font-size: 16px;
-  color: #6B4226;
+  color: #7A5BEF;
   margin-right: 8px;
 }
 
@@ -213,7 +216,7 @@ body {
 
 /* .tag-popular — gold */
 .tag-popular {
-  background: #E8A94E;
+  background: #F1C0E8;
   color: #2B1F0E;
 }
 
@@ -262,7 +265,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   padding: 24px;
   border-radius: 8px;
-  border-left: 4px solid #E8A94E;
+  border-left: 4px solid #F1C0E8;
 }
 
 /* .review-text */
@@ -277,7 +280,7 @@ body {
 .review-author {
   font-size: 13px;
   font-weight: bold;
-  color: #E8A94E;
+  color: #F1C0E8;
 }
 
 
@@ -293,7 +296,7 @@ body {
 }
 
 #site-footer a {
-  color: #E8A94E;
+  color: #F1C0E8;
   text-decoration: none;
 }
 
