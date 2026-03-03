@@ -303,3 +303,37 @@ body {
 #site-footer a:hover {
   text-decoration: underline;
 }
+
+/* --- TEAM (class="team-member") ---
+   Each team member reuses the same classes. */
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  text-align: center;
+}
+
+.team-member {
+  background: #DCCEEA;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.team-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #EED9F2;
+  margin: 0 auto 16px;
+}
+
+.team-name {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.team-role {
+  font-size: 14px;
+  color: #5d3565;
+}
